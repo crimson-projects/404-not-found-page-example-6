@@ -1,0 +1,328 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: #541bc1;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+
+body::after {
+  content: "";
+  background: url("https://ae01.alicdn.com/kf/HTB1I_FvOXXXXXXCaFXXq6xXFXXX7/Fuga-de-Rick-e-Morty-Hot-Anima-o-Dos-Desenhos-Animados-Poster-Retro-Do-Vintage-Da.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.svgcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.topconvo {
+  font-size: 35px;
+}
+.topconvo span {
+  color: #a71dbf;
+}
+.bottomconvo {
+  padding-top: 15px;
+}
+
+.subcont {
+  width: 100%;
+  text-align: center;
+  height: 80vh;
+}
+
+.svgcontainer svg#fourohfour {
+  max-height: 320px;
+  height: 21vw;
+  min-height: 170px;
+}
+
+.svgcontainer svg#fourohfour g#tops path#leftfourtop {
+  transform-origin: center;
+  -webkit-animation: loboff1 4s 1s forwards;
+  animation: loboff1 4s 1s forwards;
+}
+
+.svgcontainer svg#fourohfour g#tops path#zerotop_3_.picklericked {
+  transform-origin: center;
+  -webkit-animation: loboff2 4s 1s forwards;
+  animation: loboff2 4s 1s forwards;
+}
+
+.svgcontainer svg#fourohfour g#tops path#rightfourtop.picklericked {
+  transform-origin: center;
+  -webkit-animation: loboff3 4s 1s forwards;
+  animation: loboff3 4s 1s forwards;
+}
+
+.svgcontainer svg#fourohfour .st0 {
+  fill: #a71dbf;
+}
+
+.svgcontainer svg#fourohfour .st1 {
+  fill: #541bc1;
+}
+
+.svgcontainer svg#fourohfour .st2 {
+  fill: #f0a9ff;
+}
+
+.backgroundfun {
+  position: absolute;
+  min-height: 100%;
+}
+
+.backgroundfun svg#rnmbg .st0 {
+  fill: #3f271a;
+}
+
+.backgroundfun svg#rnmbg .st1 {
+  fill: #e9ce33;
+}
+
+.backgroundfun svg#rnmbg .st2 {
+  fill: #834d21;
+}
+
+.backgroundfun svg#rnmbg .st3 {
+  fill: #eacb36;
+}
+
+.backgroundfun svg#rnmbg .st4 {
+  fill: #d28b3a;
+}
+
+.backgroundfun svg#rnmbg .st5 {
+  fill: #84a841;
+}
+
+.backgroundfun svg#rnmbg .st6 {
+  fill: #ca7f3f;
+}
+
+.backgroundfun svg#rnmbg .st7 {
+  fill: #e7ab43;
+}
+
+.backgroundfun svg#rnmbg .st8 {
+  fill: #ebc22d;
+}
+
+.backgroundfun svg#rnmbg .st9 {
+  fill: #b5c04c;
+}
+
+.backgroundfun svg#rnmbg .st10 {
+  fill: #ddb92d;
+}
+
+.backgroundfun svg#rnmbg .st11 {
+  fill: #e9c194;
+}
+
+.backgroundfun svg#rnmbg .st12 {
+  fill: #e3aa86;
+}
+
+.backgroundfun svg#rnmbg .st13 {
+  fill: #98702d;
+}
+
+.backgroundfun svg#rnmbg .st14 {
+  fill: #95b023;
+}
+
+.backgroundfun svg#rnmbg .st15 {
+  fill: #e2a175;
+}
+
+.backgroundfun svg#rnmbg .st16 {
+  fill: #c8672e;
+}
+
+.backgroundfun svg#rnmbg .st17 {
+  fill: #c06b73;
+}
+
+.backgroundfun svg#rnmbg .st18 {
+  fill: #728b47;
+}
+
+.backgroundfun svg#rnmbg .st19 {
+  fill: #da7d3d;
+}
+
+.backgroundfun svg#rnmbg .st20 {
+  fill: #db9345;
+}
+
+.backgroundfun svg#rnmbg .st21 {
+  fill: #d4713c;
+}
+
+.backgroundfun svg#rnmbg .st22 {
+  fill: #e1d47e;
+}
+
+.backgroundfun svg#rnmbg .st23 {
+  fill: #db9364;
+}
+
+.backgroundfun svg#rnmbg .st24 {
+  fill: #cc8cbc;
+}
+
+.backgroundfun svg#rnmbg .st25 {
+  fill: #e3b6bf;
+}
+
+.backgroundfun svg#rnmbg .st26 {
+  fill: #d1c295;
+}
+
+.backgroundfun svg#rnmbg .st27 {
+  fill: #b3996d;
+}
+
+.backgroundfun svg#rnmbg .st28 {
+  fill: #e8ba47;
+}
+
+.backgroundfun svg#rnmbg .st29 {
+  fill: #b45c36;
+}
+
+svg#swipe {
+  width: 300px;
+  position: absolute;
+  top: 30%;
+  left: -300px;
+  filter: blur(6px);
+  -webkit-animation: swipecut 0.1s linear 1s forwards;
+  animation: swipecut 0.1s linear 1s forwards;
+}
+
+svg#swipe .st0 {
+  fill: #4e8025;
+}
+
+svg#picklerick {
+  width: 300px;
+  position: absolute;
+  bottom: -400px;
+  right: 13%;
+  -webkit-animation: popup 1s 5s forwards;
+  animation: popup 1s 5s forwards;
+}
+
+svg#picklerick .st0 {
+  fill: #fefefe;
+}
+
+svg#picklerick .st1 {
+  fill: #0d130c;
+}
+
+svg#picklerick .st2 {
+  fill: #4e8025;
+}
+
+svg#picklerick .st3 {
+  fill: #669b2e;
+}
+
+svg#picklerick .st4 {
+  fill: #e5f8d3;
+}
+
+@-webkit-keyframes swipecut {
+  0% {
+  }
+
+  100% {
+    transform: translateX(calc(100vw + 300px));
+  }
+}
+
+@-webkit-keyframes loboff1 {
+  0% {
+  }
+
+  100% {
+    transform: translate(0px, 3px) rotate(27deg);
+  }
+}
+
+@-webkit-keyframes loboff2 {
+  0% {
+  }
+
+  100% {
+    transform: translate(10px, -27px) rotate(27deg);
+  }
+}
+
+@-webkit-keyframes loboff3 {
+  0% {
+  }
+
+  100% {
+    transform: translate(20px, -50px) rotate(28deg);
+  }
+}
+
+@-webkit-keyframes popup {
+  0% {
+  }
+
+  100% {
+    transform: translateY(-200px);
+  }
+}
+
+@media only screen and (max-height: 420px) {
+  .svgcontainer svg#fourohfour {
+    height: 180px;
+  }
+  .topconvo {
+    font-size: 25px;
+  }
+  .bottomconvo {
+    font-size: 13px;
+  }
+  svg#picklerick {
+    bottom: -420px;
+    right: 10vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .topconvo {
+    font-size: 25px;
+  }
+  .bottomconvo {
+    font-size: 13px;
+  }
+  svg#picklerick {
+    width: 240px;
+  }
+}
